@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📧 Inscription - Chutes du Niagara</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid d-flex align-items-center justify-content-between px-3">
+      <!-- Logo à gauche -->
+      <div class="d-flex align-items-center">
+        <img src="../images/logo1.png" alt="Logo Visite Niagara" class="logo-img">
+        <a class="navbar-brand fw-bold ms-2" href="../index.html">Niagara Event</a>
+      </div>
+
+      <!-- Menu à droite -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="../index.html">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="programme.html">Programme</a></li>
+          <li class="nav-item"><a class="nav-link active" href="inscription.html">Inscription</a></li>
+          <li class="nav-item"><a class="nav-link" href="galerie.html">Galerie</a></li>
+          <li class="nav-item"><a class="nav-link" href="infos.html">Infos</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<div class="form-header">
+    <h2>Réservez votre événement</h2>
+    <p>Prêt à réserver votre événement au Centre des congrès de Niagara Falls ?
+        Notre équipe est là pour vous aider. <em>Veuillez remplir le formulaire ci-dessous et nous vous répondrons dans les 24 heures ouvrables.</em><br>
+        <strong>Nous sommes impatients de vous aider à organiser un événement réussi à Niagara Falls, au Canada.</strong>
+    </p>
+</div>
+
+<form id="registrationForm" class="form-inscription">
+    <fieldset>
+        <legend>Informations personnelles</legend>
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" required>
+
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" placeholder="exemple@mail.com" required>
+        <span class="error-msg" id="emailError">Format de courriel non valide</span>
+
+        <label for="tel">Téléphone :</label>
+        <input type="tel" id="tel" name="tel" placeholder="(123) 456-7890" required>
+        <span class="error-msg" id="telError">Format de téléphone non valide</span>
+
+        <label for="dateNaissance">Date de naissance :</label>
+        <input type="date" id="dateNaissance" name="dateNaissance" max="2007-09-01" required>
+        <span class="error-msg" id="dobError">Vous devez avoir 18 ans ou plus</span>
+
+        <label for="pays">Pays :</label>
+        <input list="paysList" id="pays" name="pays" required>
+        <datalist id="paysList">
+            <option value="Canada">
+            <option value="USA">
+            <option value="Autre">
+        </datalist>
+
+        <label>Sexe :</label>
+        <div class="options-inline">
+            <label><input type="radio" name="sexe" value="H" required> Homme</label>
+            <label><input type="radio" name="sexe" value="F" required> Femme</label>
+            <label><input type="radio" name="sexe" value="A" required> Autre</label>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Nombre de participants</legend>
+        <label for="adultes">Adultes (50$ chacun) :</label>
+        <input type="number" id="adultes" name="adultes" min="1" value="1">
+
+        <label for="enfants">Enfants de plus de 5 ans (30$ chacun) :</label>
+        <input type="number" id="enfants" name="enfants" min="0" value="0">
+
+        <label for="bebe">Enfants de moins de 5 ans (Gratuit) :</label>
+        <input type="number" id="bebe" name="bebe" min="0" value="0">
+    </fieldset>
+
+    <fieldset>
+        <legend>Choix des activités :</legend>
+        <div class="options-inline">
+            <label><input type="checkbox" name="activites" value="Croisière"> Croisière 35$</label>
+            <label><input type="checkbox" name="activites" value="Niagara Zipline"> Niagara Zipline 60$</label>
+            <label><input type="checkbox" name="activites" value="tour Skylon"> La tour Skylon 15$</label>
+            <label><input type="checkbox" name="activites" value="Niagara SkyWheel"> Niagara SkyWheel 20$</label>
+            <label><input type="checkbox" name="activites" value="Whirlpool Aero Car"> Whirlpool Aero Car 15$</label>
+            <label><input type="checkbox" name="activites" value="Butterfly Conservatory"> Butterfly Conservatory 30$</label>
+            <label><input type="checkbox" name="activites" value="Photo souvenir"> Photo souvenir 15$</label>
+        </div>
+    </fieldset>
+
+    <fieldset class="paiement">
+        <legend>Paiement</legend>
+        <div class="pay-option">
+            <input type="radio" id="pay-credit" name="paiement" value="credit" required>
+            <label for="pay-credit">Carte de crédit</label>
+        </div>
+        <div class="pay-option">
+            <input type="radio" id="pay-cash" name="paiement" value="cash">
+            <label for="pay-cash">En espèces sur place</label>
+        </div>
+
+          <!-- 🟦 Section cachée par défaut -->
+        <div id="carteDetails" class="carte-details">
+        <label for="numCarte">Numéro de carte :</label>
+        <input type="text" id="numCarte" name="numCarte" placeholder="1234 5678 9012 3456" maxlength="19">
+
+        <div style="display: flex; gap: 10px; margin-top: 10px;">
+            <div>
+            <label for="expCarte">Date d’expiration :</label>
+            <input type="month" id="expCarte" name="expCarte">
+            </div>
+            <div>
+            <label for="cvvCarte">CVV :</label>
+            <input type="text" id="cvvCarte" name="cvvCarte" placeholder="123" maxlength="4">
+            </div>
+        </div>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <label for="photo">Photo : (Optionnel)</label>
+        <input type="file" id="photo" name="photo">
+    </fieldset>
+
+    <fieldset>
+        <legend>Commentaires</legend>
+        <textarea name="commentaires" placeholder="Vos suggestions..."></textarea><br>
+        <label class="inline"><input type="checkbox" name="conditions" id="conditions"> J'accepte les conditions d'utilisation</label>
+    </fieldset>
+
+    <button type="submit" id="submitBtn">Valider l'inscription</button>
+</form>
+
+<!-- Inclure le JS dynamique -->
+<script src="../js/pages.js"></script>
+<script src="../js/global.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

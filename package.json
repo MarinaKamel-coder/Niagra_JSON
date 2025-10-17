@@ -1,0 +1,13 @@
+{
+  "name": "niagra_json",
+  "version": "1.0.0",
+  "description": "Projet Visit Niagara avec données JSON et serveur Express",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.0"
+  }
+}

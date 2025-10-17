@@ -1,0 +1,242 @@
+{
+
+
+  "accueil": {
+    "titre": "Visite des Chutes du Niagara",
+    "paragraphe": "Les attractions de Niagara Falls, au Canada, vous offrent une expérience authentique en Ontario. Embarquez pour une croisière dans la ville de Niagara le matin et embarquez pour Whirlpool Aero Car l'après-midi. Promenez-vous dans les jardins botaniques ou testez votre courage sur la tyrolienne WildPlay jusqu'aux chutes. Visitez la tour Skylon pour une vue imprenable à 360 degrés. Le spectacle de magie du Greg Frewin Theatre émerveillera petits et grands. Réveillez l'amateur de sensations fortes qui sommeille en vous avec Whirlpool Jetboats, Nightmares Fear Factory ou Niagara Free Fall. Il y a tant de choses à faire à Niagara Falls pour le plaisir et l'aventure !",
+    "invitation": {
+      "titre": "🎤 Invitation spéciale",
+      "texte": "Cliquez sur le bouton ci-dessous pour écouter notre message d’accueil.",
+      "audio": "media/invitation_fr.mp3"
+    },
+    "propos": {
+      "titre": "À propos de cet événement",
+      "cartes": [
+        {
+          "icone": "📅",
+          "titre": "Annulation gratuite",
+          "texte": "Annulation jusqu’à 24 heures à l’avance pour un remboursement intégral."
+        },
+        {
+          "icone": "💳",
+          "titre": "Réservez maintenant, payez plus tard",
+          "texte": "Restez flexible : réservez votre place sans rien payer aujourd’hui."
+        },
+        {
+          "icone": "⏰",
+          "titre": "Durée 10 heures",
+          "texte": "Vérifiez les disponibilités pour voir les heures de début."
+        },
+        {
+          "icone": "🌎",
+          "titre": "Guide",
+          "texte": "Disponible en Français & Anglais."
+        }
+      ]
+    }
+  },
+  "programme": [
+    {
+      "heure": "10h00",
+      "activite": "Accueil & café",
+      "salle": "Zone d’accueil",
+      "animateur": "Diane Martin",
+      "photo": "images/diane.jpg",
+      "bio": "Diane is a 5 star tour guide who loves showing off Niagara Falls!"
+    },
+    {
+      "heure": "10h30",
+      "activite": "Mot de bienvenue",
+      "salle": "Hall",
+      "animateur": "Diane Martin",
+      "photo": "images/diane.jpg",
+      "bio": "Diane is a 5 star tour guide who loves showing off Niagara Falls!"
+    },
+    {
+      "heure": "11h00",
+      "activite": "Observation des chutes",
+      "salle": "Chutes de Niagara",
+      "animateur": "Diane Martin",
+      "photo": "images/diane.jpg",
+      "bio": "Diane is a 5 star tour guide who loves showing off Niagara Falls!"
+    },
+    {
+      "heure": "midi",
+      "activite": "Croisière Maid of the Mist",
+      "salle": "Niagara City Cruises",
+      "animateur": "Super Dave",
+      "photo": "images/dave.jpg",
+      "bio": "Super Dave is one of the top tour guides, loved by all visitors."
+    },
+    {
+      "heure": "13h15",
+      "activite": "Tyrolienne WildPlay jusqu'aux chutes",
+      "salle": "Zipline to the Falls",
+      "animateur": "Super Dave",
+      "photo": "images/dave.jpg",
+      "bio": "Super Dave is one of the top tour guides, loved by all visitors."
+    },
+    {
+      "heure": "14h00",
+      "activite": "Dinner",
+      "salle": "Restaurant a votre choix",
+      "animateur": "Super Dave",
+      "photo": "images/dave.jpg",
+      "bio": "Super Dave is one of the top tour guides, loved by all visitors."
+    },
+    {
+      "heure": "15h00",
+      "activite": "Monter le Tour Skylon",
+      "salle": "Tour Skylon",
+      "animateur": "KATIE",
+      "photo": "images/katie.jpg",
+      "bio": "Katie loves sharing the rich history and hidden stories of Niagara Falls."
+    },
+    {
+      "heure": "16h00",
+      "activite": "activités libres",
+      "salle": "libre",
+      "animateur": "KATIE",
+      "photo": "images/katie.jpg",
+      "bio": "Katie loves sharing the rich history and hidden stories of Niagara Falls."
+    },
+    {
+      "heure": "18h00",
+      "activite": "Voiture aérodynamique Whirlpool",
+      "salle": "Whirlpool Aero car",
+      "animateur": "KATIE",
+      "photo": "images/katie.jpg",
+      "bio": "Katie loves sharing the rich history and hidden stories of Niagara Falls."
+    },
+        {
+      "heure": "19h00",
+      "activite": "papillons pittoresques",
+      "salle": "Butterfly Conservatory",
+      "animateur": "Terry Tremblay",
+      "photo": "images/terry.jpg",
+      "bio": "Terry loves sharing his knowledge of Niagara's early years."
+    },
+    {
+      "heure": "20h00",
+      "activite": "le souper",
+      "salle": "Restaurant a votre choix",
+      "animateur": "Terry Tremblay",
+      "photo": "images/terry.jpg",
+      "bio": "Terry loves sharing his knowledge of Niagara's early years."
+    },
+    {
+      "heure": "20h45",
+      "activite": "Photo souvenir",
+      "salle": "chutes de Niagara",
+      "animateur": "Terry Tremblay",
+      "photo": "images/terry.jpg",
+      "bio": "Terry loves sharing his knowledge of Niagara's early years."
+    },
+        {
+      "heure": "21h00",
+      "activite": "Monter le Tour Skylon",
+      "salle": "Tour Skylon",
+      "animateur": "Bernie Boucher",
+      "photo": "images/bernie.jpg",
+      "bio": "Bernie brings her wealth of experience to Niagara Falls tours."
+    },
+    {
+      "heure": "21h30",
+      "activite": "Rassemblement pour préparer le départ",
+      "salle": "Zone d’accueil",
+      "animateur": "Bernie Boucher",
+      "photo": "images/bernie.jpg",
+      "bio": "Bernie brings her wealth of experience to Niagara Falls tours."
+    },
+    {
+      "heure": "22h00",
+      "activite": "Discours de remerciement et distribution de souvenirs",
+      "salle": "Hall",
+      "animateur": "Bernie Boucher",
+      "photo": "images/bernie.jpg",
+      "bio": "Bernie brings her wealth of experience to Niagara Falls tours."
+    }
+  ],
+
+  "galerie": [
+  { "url": "images/aqua.jpg", "caption": "Un espace familial avec toboggans et piscines intérieures." },
+  { "url": "images/butterfly.jpg", "caption": "Découvrez des centaines de papillons exotiques." },
+  { "url": "images/cruse.jpg", "caption": "Une expérience unique au plus près des chutes." },
+  { "url": "images/fireworks.jpg", "caption": "Vivez la magie des feux d'artifice comme jamais auparavant. Les chutes du Niagara, la plus ancienne série de feux d'artifice du Canada." },
+  { "url": "images/skyWheel.jpg", "caption": "Vue panoramique à 175 pieds de hauteur" },
+  { "url": "images/whirlpool.jpg", "caption": "Traversez les rapides du Niagara en cabine suspendue." },
+  { "url": "images/tour.jpg", "caption": "un panorama 360 degrés en constante évolution sur les chutes et le paysage urbain." },
+  { "url": "images/zipline.jpeg", "caption": "Frissons garantis en survolant les chutes." }
+  
+  ],
+  "inscription": [
+    {
+      "prenom": "Alice",
+      "nom": "Dupont",
+      "email": "alice@example.com",
+      "tel": "(123) 456-7890",
+      "dateNaissance": "1990-05-15",
+      "pays": "Canada",
+      "sexe": "F",
+      "adultes": 2,
+      "enfants": 1,
+      "bebe": 0,
+      "activites": ["Croisière", "Niagara SkyWheel"],
+      "paiement": "credit",
+      "commentaires": "Nous aimerions des places près de l'eau."
+    },
+    {
+      "prenom": "Bob",
+      "nom": "Martin",
+      "email": "bob@example.com",
+      "tel": "(987) 654-3210",
+      "dateNaissance": "1985-08-20",
+      "pays": "USA",
+      "sexe": "H",
+      "adultes": 1,
+      "enfants": 0,
+      "bebe": 0,
+      "activites": ["tour Skylon", "Butterfly Conservatory"],
+      "paiement": "cash",
+      "commentaires": ""
+    }
+  ],
+
+"infos": {
+  "titre": "Informations pratiques",
+  "adresse": "Clifton Hill, Niagara Falls, ON",
+  "map_embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2913.6388802873835!2d-79.07662482385273!3d43.091086871134465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d343198cf7ba95%3A0x4ee5b42c7bbb83ff!2sClifton%20Hill%2C%20Niagara%20Falls%2C%20ON!5e0!3m2!1sfr!2sca!4v1756475698762!5m2!1sfr!2sca",
+  "faq": [
+    {
+      "question": "Quels sont les horaires des croisières ?",
+      "reponse": "Les croisières commencent à 08h00 et terminent à 21h00 tous les jours."
+    },
+    {
+      "question": "Où se restaurer ?",
+      "reponse": "Plusieurs restaurants sont disponibles sur place, près des points d’observation."
+    },
+    {
+      "question": "Comment se rendre aux chutes depuis Toronto ?",
+      "reponse": "En voiture, environ 1h30; en bus ou tour guidé, différentes options sont disponibles."
+    }
+  ],
+  "contact": {
+    "tel": "+1 905-356-6000",
+    "email": "info@niagarafalls.com"
+  },
+  "liens_utiles": [
+    {
+      "titre": "Site officiel du parc",
+      "url": "https://www.niagarafallstourism.com"
+    },
+    {
+      "titre": "Site touristique Ontario",
+      "url": "https://www.ontario.ca/fr"
+    },
+    {
+      "titre": "S'inscrire à la visite",
+      "url": "inscription.html"
+    }
+  ]
+}
+}
