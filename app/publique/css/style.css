@@ -44,12 +44,32 @@ body {
 }
 /* Espace entre les items du menu nav */
 .navbar-nav .nav-item {
-  margin-left: 1.5rem; 
   font-size: 20px;
 }
 
 .navbar-nav .nav-item:first-child {
   margin-left: 0; 
+}
+/* Burger menu (mobile) */
+.burger {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.burger span {
+  height: 3px;
+  width: 25px;
+  background: white;
+  margin: 4px 0;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .burger {
+    display: flex;
+  }
 }
 /* ================== Banniere / Video ================== */
 .banniere {
@@ -858,7 +878,7 @@ form .paiement .pay-option label {
 .mode-toggle {
     position: fixed;
     top: 20px;
-    right: 20px;
+    right: 5px;
     z-index: 999;
     background-color: #0d6efd;
     color: #fff;
@@ -902,5 +922,9 @@ form .paiement .pay-option label {
 
     form {
         padding: 1.5rem;
+    }
+    .mode-toggle{
+    top: 55px;
+    right: 5px;
     }
 }
