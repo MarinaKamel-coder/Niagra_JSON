@@ -842,13 +842,18 @@ form .paiement .pay-option label {
 
 /* ================== Map ================== */
 .map {
-    padding-left: 100px;
+    padding-left: 10px;
     width: 70%;
     height: 550px;
     border: none;
     border-radius: 12px;
 }
-
+@media(max-width:768px) {
+    .map{
+        width: 100%;
+        
+    }
+}
 /* ================== Bouton mode sombre / clair ================== */
 .mode-toggle {
     position: fixed;
