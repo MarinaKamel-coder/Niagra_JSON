@@ -28,7 +28,7 @@ body {
 .navbar-nav .nav-link {
     color: #fff;
     transition: color 0.3s;
-    
+    margin-left: 15px;
 }
 
 .navbar-nav .nav-link:hover,
