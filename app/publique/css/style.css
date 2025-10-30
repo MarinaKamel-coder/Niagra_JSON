@@ -1,4 +1,9 @@
 /* ================== Global ================== */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
@@ -340,6 +345,8 @@ body {
 #programmeTable {
   width: 100%;
   border-collapse: separate;
+  table-layout: fixed;
+  word-wrap: break-word;
   border-spacing: 0;
   font-family: 'Segoe UI', sans-serif;
   border-radius: 15px;
@@ -448,6 +455,7 @@ body {
 
 /* ---- TABLE RESPONSIVE ---- */
 .table-responsive {
+  overflow-x: visible;
   border-radius: 15px;
   background: #ffffff;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
@@ -456,6 +464,29 @@ body {
 .dark-mode .table-responsive {
   background: #222;
   box-shadow: 0 8px 20px rgba(255, 255, 255, 0.05);
+}
+/* === Ajustement photo animateur pour mobile === */
+@media (max-width: 768px) {
+  .animateur-photo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .bio-bulle {
+    font-size: 0.7rem;
+    width: 140px;
+  }
+
+  .photo-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+  }
+
+  /* éviter que la table cache l’image */
+  .table-responsive {
+    overflow-x: visible;
+  }
 }
 
 /* ================== INSCRIPTION ================== */
@@ -811,7 +842,7 @@ form .paiement .pay-option label {
 }
 
 #galleryContainer .card .caption {
-    position:fixed;
+    position: absolute;
     bottom: 50px;
     left: 0;
     width: 100%;
