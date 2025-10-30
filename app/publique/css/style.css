@@ -1,7 +1,10 @@
 /* ================== Global ================== */
 html, body {
-  max-width: 100%;
-  overflow-x: hidden;
+  width: 100%;   
+  overflow-x: auto;      
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -342,6 +345,16 @@ body {
 
 /* ================== Programme ================== */
 /* ---- TABLE GLOBALE ---- */
+body.programme-page {
+  min-width: 1000px;
+  overflow-x: auto;  
+  overflow-y: auto;
+}
+
+.programme-container {
+  min-width: 1000px;
+}
+
 #programmeTable {
   width: 100%;
   border-collapse: separate;
@@ -350,7 +363,7 @@ body {
   border-spacing: 0;
   font-family: 'Segoe UI', sans-serif;
   border-radius: 15px;
-  overflow: hidden;
+  overflow: visible;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
@@ -901,9 +914,11 @@ form .paiement .pay-option label {
 }
 @media(max-width:768px) {
     .map{
-        width: 100%;
-        
+        width: 98%;
+        padding: 0;
+        margin: 0; 
     }
+    
 }
 /* ================== Bouton mode sombre / clair ================== */
 .mode-toggle {
